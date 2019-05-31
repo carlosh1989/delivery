@@ -1,0 +1,56 @@
+<?php
+
+namespace App;
+
+use App\CompanyProfile;
+use App\User;
+use Illuminate\Auth\Authenticatable;
+use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
+use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use Illuminate\Database\Eloquent\Model;
+use Laravel\Lumen\Auth\Authorizable;
+
+class CompanyUsers extends Model implements AuthenticatableContract, AuthorizableContract
+{
+    use Authenticatable, Authorizable;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+        protected $table = 'company_users';
+        public $timestamps = false;
+       protected $fillable = [
+        'user_id','company_profile_id','user_type','enable_user' 
+    ];
+
+
+    /**
+     * The attributes excluded from the model's JSON form.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        'password',
+    ];
+
+
+    function users_features_detail(){
+        return $this->hasMany('App\UsersFeaturesDetail', 'users_id');
+    }
+
+    function userExist($email){
+        return $this->where('email',$email)->get()->first();
+    }
+
+    public function company_profile()
+    {
+        return $this->belongsTo(CompanyProfile::class,'company_profile_id','id');
+    }
+
+    public function user_data()
+    {
+        return $this->belongsTo(User::class,'user_id','id');
+    }
+}

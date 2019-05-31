@@ -1,0 +1,2628 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-05-11T04:58:45.269Z",
+	"__export_source": "insomnia.desktop.app:v6.3.2",
+	"resources": [
+		{
+			"_id": "wrk_e980b7e600ce40a78788060a281fb1ae",
+			"created": 1553573502461,
+			"description": "",
+			"modified": 1553573502461,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_22d0ecc24b8e4b66848ab67cba361f3d",
+			"color": null,
+			"created": 1553573502497,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1553573502497,
+			"modified": 1553573502497,
+			"name": "New Environment",
+			"parentId": "wrk_e980b7e600ce40a78788060a281fb1ae",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_ac9cd9e229214d9b81d03d06dfb15064",
+			"cookies": [],
+			"created": 1553573502498,
+			"modified": 1553573502498,
+			"name": "Default Jar",
+			"parentId": "wrk_e980b7e600ce40a78788060a281fb1ae",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_e6804897a84f41deaff454575dfc57c4",
+			"created": 1553801529517,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1553801529517,
+			"modified": 1553898242472,
+			"name": "profile",
+			"parentId": "wrk_e980b7e600ce40a78788060a281fb1ae",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_9aecf7ab49b04fd585be180bb40fda09",
+			"created": 1553895769338,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1553895769338,
+			"modified": 1553895769338,
+			"name": "session",
+			"parentId": "wrk_e980b7e600ce40a78788060a281fb1ae",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_4e281655e79a47508180a909ac19d8fe",
+			"created": 1553895780064,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1553895780064,
+			"modified": 1553895780064,
+			"name": "search",
+			"parentId": "wrk_e980b7e600ce40a78788060a281fb1ae",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_5157a595c76c436a86eb04285a5509ed",
+			"created": 1553895786261,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1553895786261,
+			"modified": 1553895786261,
+			"name": "proposal",
+			"parentId": "wrk_e980b7e600ce40a78788060a281fb1ae",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_3fa5e777597c4144981b6fc229159fa5",
+			"created": 1554928340992,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1554928340992,
+			"modified": 1554928340992,
+			"name": "user",
+			"parentId": "wrk_e980b7e600ce40a78788060a281fb1ae",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_c93baf078f124250add2fec44e2613e7",
+			"color": "#ff0000",
+			"created": 1553800978064,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1553800978064,
+			"modified": 1553801258399,
+			"name": "rdcasting",
+			"parentId": "env_22d0ecc24b8e4b66848ab67cba361f3d",
+			"_type": "environment"
+		},
+		{
+			"_id": "fld_b6cc28c4aa2b416c8740aa29111e0360",
+			"created": 1553895627579,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1553895627579,
+			"modified": 1553895627579,
+			"name": "gallery",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_b98318923fa642f18ef4b52b3a0f784c",
+			"created": 1553895636503,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1553895636503,
+			"modified": 1553895636503,
+			"name": "myMoment",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_9e029c930bdc4b9ea72a2140604d8162",
+			"created": 1553895799101,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1553895799101,
+			"modified": 1553895799101,
+			"name": "video",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_5bb99247d0394a49beb116287c062007",
+			"created": 1553895821894,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1553895821894,
+			"modified": 1553898272405,
+			"name": "photo ",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_7b25e8fa96dc4a1cb37e19ed94abf8ba",
+			"created": 1555456097029,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555456097029,
+			"modified": 1555456097029,
+			"name": "account",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_40d365d1e3f14ad7a3b2f3ebc87899cd",
+			"created": 1555545765443,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555545765443,
+			"modified": 1555545765443,
+			"name": "curriculum",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_c0a16daceac34867839cacef2d51bdec",
+			"created": 1555808231177,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555808231177,
+			"modified": 1555813570442,
+			"name": "questions",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_dd8d060457a44c909ab27a05668c87da",
+			"created": 1555861226574,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555861226574,
+			"modified": 1555861226574,
+			"name": "answer",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_768b94073aed4923af69d62e11a85153",
+			"created": 1555880494779,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555880494779,
+			"modified": 1555880494779,
+			"name": "calendar",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_1cfebb9e622f492b9d588f0abd6c90c3",
+			"created": 1555891324266,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555891324267,
+			"modified": 1555891324266,
+			"name": "dates",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_d1854d9d728f4be0bf3e7238f61eaf2a",
+			"created": 1556578323408,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1556578323408,
+			"modified": 1556578323408,
+			"name": "contacts",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_7403b9a475224293a238a7dbc0fef489",
+			"created": 1556918354635,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1556918354636,
+			"modified": 1556918354635,
+			"name": "bank accounts",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_113d512c194140d0ac851609de8c3736",
+			"created": 1557345948514,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1557345948514,
+			"modified": 1557345948514,
+			"name": "features",
+			"parentId": "fld_e6804897a84f41deaff454575dfc57c4",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_4e88e922de4c49c8ac848d9f486c5f1b",
+			"authentication": {},
+			"body": {},
+			"created": 1553900067699,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_fc682f6f6ba84106a1cd45529e084fa5",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_9157b9117d8e4d7a9716125396441487",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553900067699,
+			"method": "GET",
+			"modified": 1553900087845,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_9aecf7ab49b04fd585be180bb40fda09",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/getUserSession",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0c1aa97b8d2444c094abe92dd419fbbd",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\":\"barinas.code@gmail.com\",\n\t\"password\": \"123456789\"\n}"
+			},
+			"created": 1554254301217,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_139cb8828bb249c78bbb292d355017ad",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_ee68d50658374ee3b83e0877a75a58eb",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1554254301217,
+			"method": "POST",
+			"modified": 1554264364082,
+			"name": "login",
+			"parameters": [],
+			"parentId": "fld_9aecf7ab49b04fd585be180bb40fda09",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/attemp",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bb332149394144e1abbd4941719ad190",
+			"authentication": {},
+			"body": {},
+			"created": 1553899896083,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b2eb04d3fe834178b2d2f59f0ed36e09",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_e92c64b8384442f2a17de108379fb8be",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553899896083,
+			"method": "GET",
+			"modified": 1555407956132,
+			"name": "talents",
+			"parameters": [],
+			"parentId": "fld_4e281655e79a47508180a909ac19d8fe",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/searchTalents/4",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_aac8245e297c40588e99513f792885b4",
+			"created": 1554938210682,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1554938210682,
+			"modified": 1554938210682,
+			"name": "talent",
+			"parentId": "fld_5157a595c76c436a86eb04285a5509ed",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_aff5f138eb5d443fb7beced973b68ddf",
+			"authentication": {},
+			"body": {},
+			"created": 1553898585669,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_c834cd454d6a433a8bfe6ce6134b4f0d",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_66c1ec2ddb8a4af0a78798ebe6698710",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553898585669,
+			"method": "GET",
+			"modified": 1557531497761,
+			"name": "get talents",
+			"parameters": [],
+			"parentId": "fld_5157a595c76c436a86eb04285a5509ed",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/proposalTalents/9",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2c24c77ffce54fc09fb1d6ddf4c51191",
+			"authentication": {},
+			"body": {},
+			"created": 1553899030008,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7ed91b175a924a7d852231727e25ddd1",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_8b170b5e3cc746fc84758362abdbfb4d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553899030008,
+			"method": "GET",
+			"modified": 1557179024274,
+			"name": "get by USER",
+			"parameters": [],
+			"parentId": "fld_5157a595c76c436a86eb04285a5509ed",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/proposal/user",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4809780370cc4573bb11b99188d642b6",
+			"authentication": {},
+			"body": {},
+			"created": 1553899138585,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a35561c476ce432e8ebda0ec9a8baa87",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_657e7cc27e514bfd998e296aea499db7",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553899138585,
+			"method": "GET",
+			"modified": 1553899185690,
+			"name": "get by ID",
+			"parameters": [],
+			"parentId": "fld_5157a595c76c436a86eb04285a5509ed",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/proposal/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2ccc598b577a452eb6ac5f9d658a5102",
+			"authentication": {},
+			"body": {},
+			"created": 1553899434713,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d4455fb5afb04d28977bb694c829fca4",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_d0564d73bda04e83a1cf6235498ac96d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553899434713,
+			"method": "GET",
+			"modified": 1553899494350,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_5157a595c76c436a86eb04285a5509ed",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/proposalList",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_d4e44e987118479e8fcaea43f3951ec9",
+			"created": 1554934044920,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1554934044920,
+			"modified": 1554934044920,
+			"name": "preference",
+			"parentId": "fld_3fa5e777597c4144981b6fc229159fa5",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_7f7b90588ba14b83b8bf388ed4bbddba",
+			"created": 1555626105803,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555626105803,
+			"modified": 1555626105803,
+			"name": "auth",
+			"parentId": "fld_3fa5e777597c4144981b6fc229159fa5",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_2592adda010d40d99513ec72b7996470",
+			"created": 1557261252128,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1557261252128,
+			"modified": 1557261252128,
+			"name": "unlocked",
+			"parentId": "fld_b6cc28c4aa2b416c8740aa29111e0360",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_d8302b984aea47508344a9e82106fadd",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"fileName": "/home/hugo/Descargas/48393264_1989963091079836_6113068179787874304_n.jpg",
+						"id": "pair_6338b2a7140c4c0d8a976412425966e2",
+						"name": "photos[]",
+						"type": "file",
+						"value": ""
+					}
+				]
+			},
+			"created": 1553895957077,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_be8bdd34059d408db3c3763343a2cb18",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				},
+				{
+					"id": "pair_cb454bb8afb04a359cd13411e2104c54",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553895957077,
+			"method": "POST",
+			"modified": 1555374218562,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_b6cc28c4aa2b416c8740aa29111e0360",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/gallery",
+			"_type": "request"
+		},
+		{
+			"_id": "req_27a3f292007d49328d5099a18d1a87a5",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1553896706079,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_67b269fcc8e54f368471dd6552c5a28f",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_ca2213be9e824785a99e746ed960914c",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553896706079,
+			"method": "GET",
+			"modified": 1555186022991,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_b6cc28c4aa2b416c8740aa29111e0360",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/gallery",
+			"_type": "request"
+		},
+		{
+			"_id": "req_094e0761eb4345beb6ba7d5115042307",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"id\":1\n}"
+			},
+			"created": 1555371837974,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_3edad87c46ef4cde8bcbf550d9dd6e3e",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_73534ba6d5fe4261a5e1bfe5925aea07",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555371837974,
+			"method": "DELETE",
+			"modified": 1555391012123,
+			"name": "delete",
+			"parameters": [],
+			"parentId": "fld_b6cc28c4aa2b416c8740aa29111e0360",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/gallery/delete/2",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_125b1b96bdce4d78b6ee687291451edf",
+			"created": 1557261845092,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1557261845092,
+			"modified": 1557261845092,
+			"name": "unlocked",
+			"parentId": "fld_b98318923fa642f18ef4b52b3a0f784c",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_eae240ccd52c4d098c54b2d241f2f56b",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"fileName": "/home/hugo/MV5BMTQzMjkwNTQ2OF5BMl5BanBnXkFtZTgwNTQ4MTQ4MTE@._V1_.jpg",
+						"id": "pair_5ec0f73d7e3c4cef903ae6c660ce433f",
+						"name": "photos[]",
+						"type": "file",
+						"value": ""
+					}
+				]
+			},
+			"created": 1553897203458,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a82d0dfdd32c4fffabe9805c39fbcea7",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_84156af6561e4e98a26f4ad91ef401ca",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553897203458,
+			"method": "POST",
+			"modified": 1555398016287,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_b98318923fa642f18ef4b52b3a0f784c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/myMoment",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a7de4851a9304468be2c36a3b70950e3",
+			"authentication": {},
+			"body": {},
+			"created": 1553897277996,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4f5b461cf20e4da8ab566f0490f9983c",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_d4680f241a1648a0910dc89ae2633560",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553897277996,
+			"method": "GET",
+			"modified": 1555383837796,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_b98318923fa642f18ef4b52b3a0f784c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/myMoment",
+			"_type": "request"
+		},
+		{
+			"_id": "req_cdb52054fc934edda2dcd1b5bfe7b6e2",
+			"authentication": {},
+			"body": {},
+			"created": 1555391004942,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a3436cf70d5f471ebd1162febe9c3633",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_021b303cd0c44ff48500021a4942dfe4",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555391004942,
+			"method": "DELETE",
+			"modified": 1555406334651,
+			"name": "delete",
+			"parameters": [],
+			"parentId": "fld_b98318923fa642f18ef4b52b3a0f784c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/myMoment/delete/13",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_29b5f971a6924028a3a3b87e2a1a25c1",
+			"created": 1557263441673,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1557263441673,
+			"modified": 1557263441673,
+			"name": "unlocked",
+			"parentId": "fld_9e029c930bdc4b9ea72a2140604d8162",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_dd37626dffea45d28de5067864e84216",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"videos\":\n\t[\n\t\t{\n\t\t\t\"url\":\"https://www.youtube.com/watch?v=938kqIIR2PU\"\n\t\t}\n\t]\n}"
+			},
+			"created": 1553897458386,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_549995f3da6b480eaf4947171449147a",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_b9e4b3e8846c47bcb38951b10d2edca7",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553897458386,
+			"method": "POST",
+			"modified": 1555475608318,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_9e029c930bdc4b9ea72a2140604d8162",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/users/videos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7483498226f944eeaabedf39c6cd38d0",
+			"authentication": {},
+			"body": {},
+			"created": 1553897978803,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bf32d6205f5f4649b9e1346252be44a9",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_18bec5dbf0ea4633aeb0234652f80b81",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553897978803,
+			"method": "GET",
+			"modified": 1555470827999,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_9e029c930bdc4b9ea72a2140604d8162",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/users/videos/byOwner",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ff2216421e8147aca63ce2253c2d8889",
+			"authentication": {},
+			"body": {},
+			"created": 1555785728674,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_82c3cae621fd4c4bb0f03be17accc288",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_b0b51d5850b94ae0bdf4af888cdf5fe4",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555785728674,
+			"method": "DELETE",
+			"modified": 1555785885027,
+			"name": "delete",
+			"parameters": [],
+			"parentId": "fld_9e029c930bdc4b9ea72a2140604d8162",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/users/videos/8",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ced98b10771f4739924eb847550a7f27",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"fileName": "/home/hugo/24312542_10215039120069106_1198317713880087438_n (1).jpeg",
+						"id": "pair_a3d83fa5845449d5af90141890f251f0",
+						"name": "profile_image",
+						"type": "file",
+						"value": ""
+					}
+				]
+			},
+			"created": 1553898280519,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_26a89c66a66c411d96d307679e9bb8a2",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_c3ac10d52cb14cc7970f61a314ad0fa9",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1553898280519,
+			"method": "POST",
+			"modified": 1553898339626,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_5bb99247d0394a49beb116287c062007",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/profilePhoto",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_a2daf487910641718d5c3f427322f7d0",
+			"created": 1557283066691,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1557283066691,
+			"modified": 1557283066691,
+			"name": "unlocked",
+			"parentId": "fld_7b25e8fa96dc4a1cb37e19ed94abf8ba",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_e8c7447789b24386985ec28a2b6ef68a",
+			"authentication": {},
+			"body": {},
+			"created": 1555456104362,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d6ec8dc70fae4bed84de270137aa38bc",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_e84e543a8119497ba0f38e8f0608ea9d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555456104362,
+			"method": "GET",
+			"modified": 1555456707588,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_7b25e8fa96dc4a1cb37e19ed94abf8ba",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/account",
+			"_type": "request"
+		},
+		{
+			"_id": "req_be0d5fdbeb694428a801ea24ea6362c9",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"city\":\"barinas\"\n} "
+			},
+			"created": 1555460999848,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b008d8d0aadf49b298453148b8fcd197",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_5ce862f8ea194316a3aafd3fd5807c2c",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555460999848,
+			"method": "PUT",
+			"modified": 1556771844453,
+			"name": "update",
+			"parameters": [],
+			"parentId": "fld_7b25e8fa96dc4a1cb37e19ed94abf8ba",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/account",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_8463c3077492496686db59dfcdb0899f",
+			"created": 1557261008423,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1557261008423,
+			"modified": 1557261008423,
+			"name": "unlocked",
+			"parentId": "fld_40d365d1e3f14ad7a3b2f3ebc87899cd",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_c63682986d834d7e82d94508e4c06694",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"section\":\"cine\",\n\t\"year\":\"1989\",\n\t\"title\":\"lorem ipsum\",\n\t\"role\":\"protagonista\",\n\t\"director\":\"juan martinez\",\n\t\"productionHouse\":\"JM\",\n\t\"country\":\"colombiav\"\t\n}"
+			},
+			"created": 1555545804400,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a4b2d6e3943e4c56aa8a9a009ba0a340",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_2caa71a812df4fc2a0e04c8412c520bf",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555545804401,
+			"method": "POST",
+			"modified": 1555710838044,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_40d365d1e3f14ad7a3b2f3ebc87899cd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/curriculum",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b566f44a5ae049b28bd5f0b16d71c559",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1555561870312,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_759f9bb4a399414791a7f4195f408645",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_5519001978364aa686268f16e1007be9",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555561870312,
+			"method": "GET",
+			"modified": 1555699619597,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_40d365d1e3f14ad7a3b2f3ebc87899cd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/curriculum",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9c0ed6c7bcbe453c97b0c1b2f39d5a70",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"section\":\"cine\",\n\t\"year\":\"1989\",\n\t\"title\":\"cambiado cambiado\",\n\t\"role\":\"protagonista\",\n\t\"director\":\"juan martinez\",\n\t\"productionHouse\":\"JM\",\n\t\"country\":\"Colombia\"\t\n}"
+			},
+			"created": 1555643234944,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_05921a646a5c4115b0d9047e4e20a56e",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_6c4399a5af9c4757903e01257bad30ec",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555643234944,
+			"method": "PUT",
+			"modified": 1555701955654,
+			"name": "update",
+			"parameters": [],
+			"parentId": "fld_40d365d1e3f14ad7a3b2f3ebc87899cd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/curriculum/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3aceb5e8a62d4c80a45f50007125e9a9",
+			"authentication": {},
+			"body": {},
+			"created": 1555780097048,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e489b2ce1be4f209f0512ad2f0bc193",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_2c4a48ac179e4bc1aa110a211a5ff10f",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555780097048,
+			"method": "DELETE",
+			"modified": 1555782502983,
+			"name": "delete",
+			"parameters": [],
+			"parentId": "fld_40d365d1e3f14ad7a3b2f3ebc87899cd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/curriculum/22",
+			"_type": "request"
+		},
+		{
+			"_id": "req_84f626dfc779457fa3c7c87a911bba86",
+			"authentication": {},
+			"body": {},
+			"created": 1555808245644,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_401ad16920d547899139515d22bdeb52",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_002383a7f53442e6a2fa781060c61690",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555808245644,
+			"method": "GET",
+			"modified": 1555808291961,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_c0a16daceac34867839cacef2d51bdec",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/questions",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_73dba8dd2e1747749b6ba5d449520540",
+			"created": 1557263224242,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1557263224242,
+			"modified": 1557263224242,
+			"name": "unlocked",
+			"parentId": "fld_dd8d060457a44c909ab27a05668c87da",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_cebc7b0c51714eb5b6b05ea426effaff",
+			"authentication": {},
+			"body": {},
+			"created": 1555861966362,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_9ea9bfcdf7204146a7a17c7c2ec6580b",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_8f91436052d14bd88f7077e125cef7e5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555861966365,
+			"method": "GET",
+			"modified": 1555867385612,
+			"name": "user get",
+			"parameters": [],
+			"parentId": "fld_dd8d060457a44c909ab27a05668c87da",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/answer/2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3040b3d597c94d57bd585890ac2337ed",
+			"authentication": {},
+			"body": {},
+			"created": 1555868757021,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_c804b0b921484273bb7b6e1eebae6c52",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_8277e4a4efce45678bdd3c761c2ee66b",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555861966265,
+			"method": "GET",
+			"modified": 1555878831585,
+			"name": "user get all",
+			"parameters": [],
+			"parentId": "fld_dd8d060457a44c909ab27a05668c87da",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/answers",
+			"_type": "request"
+		},
+		{
+			"_id": "req_12fe7bf1ceef46718cd45836a8892e8f",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"questions_id\":1,\n\t\"answer\":1\n}"
+			},
+			"created": 1555870021383,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ce9af96fcfd84d6da9fdacf724e31066",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_bb0f6b4ec6874098ad031561a670d010",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555865361693,
+			"method": "POST",
+			"modified": 1555884523447,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_dd8d060457a44c909ab27a05668c87da",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/answer",
+			"_type": "request"
+		},
+		{
+			"_id": "req_24e5e2d8bb5d4493bc434f93127fc2b4",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"questions_id\":1\n}"
+			},
+			"created": 1555878480034,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4e1e032c749a446697fd66a0dcf9ba97",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_739b98617c4b44c7bed329e12853c634",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555861966315,
+			"method": "PUT",
+			"modified": 1556355896209,
+			"name": "user update ",
+			"parameters": [],
+			"parentId": "fld_dd8d060457a44c909ab27a05668c87da",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/answer",
+			"_type": "request"
+		},
+		{
+			"_id": "req_00119decda47422d9d7eaef73daaa94a",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"title\":\"lorem ipsum\"\n}"
+			},
+			"created": 1555880906712,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b5d0a2ab34d441a89b28f0b019f2d1f6",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_417d74c5b9bb43869fa5d9f0b76bbd7f",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555880906712,
+			"method": "POST",
+			"modified": 1555886936474,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_768b94073aed4923af69d62e11a85153",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/calendar",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3db0c133a4dc4bac8704cff82b14063d",
+			"authentication": {},
+			"body": {},
+			"created": 1555880921673,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_3d634968c4554896b57bcdfa826d7aec",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_29a2e98398a2446da5a654cbc55fc2ce",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555880921673,
+			"method": "GET",
+			"modified": 1555886806540,
+			"name": "show",
+			"parameters": [],
+			"parentId": "fld_768b94073aed4923af69d62e11a85153",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/calendar",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3dc25110538344028b8a0b3439d4efdf",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1555989674510,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ff8aa56df9c4415783c35f825022005f",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_d8064f9910f443a6b800a48c5a9f69a1",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555989674511,
+			"method": "DELETE",
+			"modified": 1556047504628,
+			"name": "delete",
+			"parameters": [],
+			"parentId": "fld_768b94073aed4923af69d62e11a85153",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/calendar/2019-04-24",
+			"_type": "request"
+		},
+		{
+			"_id": "req_41d2fb4722f04ac89a8862a7970c84ed",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"id": "pair_2821634e4d8b46bd9080fea1a6b3f7d9",
+						"multiline": false,
+						"name": "dates[]",
+						"type": "text",
+						"value": "2019-04-21 22:50:19"
+					},
+					{
+						"id": "pair_73067a1b567a4a30807dad0d1abd8c4a",
+						"name": "title",
+						"value": "lorem ipsum"
+					}
+				]
+			},
+			"created": 1555891344581,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d0b141e5eff046ce96b6e7398af8a12a",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_f750a64fc7164f3db12923aa28b5c009",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555891344581,
+			"method": "POST",
+			"modified": 1555893229757,
+			"name": "add ",
+			"parameters": [],
+			"parentId": "fld_1cfebb9e622f492b9d588f0abd6c90c3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/dates",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1e7ae30f331a4b7e8a783580b8983e55",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"contact\" : \"312372815\",\n\t\"whatsapp\": 1,\n\t\"priority\":\"optional\"\n}\n\n"
+			},
+			"created": 1556578337362,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5dc85734419c4b60b5363a4649c38143",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_97c47be7719245c6819dc8d30dc665e5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556578337362,
+			"method": "POST",
+			"modified": 1556740954774,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_d1854d9d728f4be0bf3e7238f61eaf2a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/contact",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f77f6f8b6a1041a3babdf380d63246be",
+			"authentication": {},
+			"body": {},
+			"created": 1556583770593,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_9bf7de3a367e4b72b3da7cbfdf1bf42d",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_1f6f29840d9141e3958928aece9c55da",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556583770593,
+			"method": "GET",
+			"modified": 1556593146556,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_d1854d9d728f4be0bf3e7238f61eaf2a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/contact",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e6fe58f73b4f45e08505f9df10481fb5",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"contact\" : \"312372815\",\n\t\"whatsapp\": 1,\n\t\"priority\":\"secondary\"\n}"
+			},
+			"created": 1556672142066,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b9f5630f2fb84f4f8930bada20634e96",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_11b7b9be2854438ea84f915fb335b51e",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556672142066,
+			"method": "PUT",
+			"modified": 1556675081991,
+			"name": "update",
+			"parameters": [],
+			"parentId": "fld_d1854d9d728f4be0bf3e7238f61eaf2a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/contact/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_78f1c6ca4bb342269e8b841b88ca9291",
+			"authentication": {},
+			"body": {},
+			"created": 1556677495193,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b4515d70c43841d8b8d57d23bf4c4209",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_d284201e70a44f4eace2fe5c0230b3f1",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556677495193,
+			"method": "DELETE",
+			"modified": 1556677542501,
+			"name": "delete",
+			"parameters": [],
+			"parentId": "fld_d1854d9d728f4be0bf3e7238f61eaf2a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/contact/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3ca4c2b7b4d94da99faabbdd157db450",
+			"authentication": {},
+			"body": {},
+			"created": 1556747225712,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_35cc0fea3d634b48b8d0f8ae15da25fe",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_58ac58f2609b4d7aa345c02d18ce7e23",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556747225712,
+			"method": "PUT",
+			"modified": 1556749681304,
+			"name": "set whatsapp",
+			"parameters": [],
+			"parentId": "fld_d1854d9d728f4be0bf3e7238f61eaf2a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/contact/setWhatsapp/60",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e2b96148cfb84b90bd9e1d8dbcc3737e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"owner\": \"carlos silva\",\n\t\"certificate_passport\":\"12345678\",\n\t\"bank\":\"banco provincial\",\n\t\"account_number\":\"123234345456456778989\"\n}"
+			},
+			"created": 1556918365035,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ef0ecf8734d7417ca8103030badffd56",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_f6e50b855ecd4d07b9981b0effc5831b",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556918365037,
+			"method": "POST",
+			"modified": 1556922062610,
+			"name": "add",
+			"parameters": [],
+			"parentId": "fld_7403b9a475224293a238a7dbc0fef489",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/bankAccount",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b4a1fc17e9f9401ca6787104702d820b",
+			"authentication": {},
+			"body": {},
+			"created": 1556919679420,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4b57ee609bf64bffa5711a2c1c810437",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_737ffa8d4cd648e7a55f3a81091e34fb",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556919679420,
+			"method": "GET",
+			"modified": 1556920423880,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_7403b9a475224293a238a7dbc0fef489",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/bankAccount",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3ecc4c36bc93445ebadf467a72ffd740",
+			"authentication": {},
+			"body": {},
+			"created": 1556920534988,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4ac4567f0ca14e98924950c07cab03c9",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_b6781aa4695e4e86b649ef32a6fc44f0",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556920534988,
+			"method": "GET",
+			"modified": 1556920584154,
+			"name": "get detail",
+			"parameters": [],
+			"parentId": "fld_7403b9a475224293a238a7dbc0fef489",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/bankAccount/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e9beb689883642e9af74941a469b8c1d",
+			"authentication": {},
+			"body": {},
+			"created": 1556920596312,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_35118499eee1496791b42d1d91be834b",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_192ef58510994fa0a8f0fa4daf74a272",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556920596312,
+			"method": "DELETE",
+			"modified": 1556921201277,
+			"name": "delete",
+			"parameters": [],
+			"parentId": "fld_7403b9a475224293a238a7dbc0fef489",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/bankAccount/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e6f820286573481eaf11d33bc240c452",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"owner\": \"carlos silva\",\n\t\"certificate_passport\":\"12345678\",\n\t\"bank\":\"banco provincial\",\n\t\"account_number\":\"123234345456456778989\"\n}"
+			},
+			"created": 1556921231006,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_138e36f76b3f439387a711c540a2d85a",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_3c6297939556409cb4aeda98c8ef7025",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556921231006,
+			"method": "PUT",
+			"modified": 1556922009729,
+			"name": "update",
+			"parameters": [],
+			"parentId": "fld_7403b9a475224293a238a7dbc0fef489",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/bankAccount/2",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_caf0b488a1794c219350259187955794",
+			"created": 1557345954226,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1557345954226,
+			"modified": 1557345954226,
+			"name": "unlocked",
+			"parentId": "fld_113d512c194140d0ac851609de8c3736",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_55bba49f7c9944f3b777a4b3612c3c50",
+			"authentication": {},
+			"body": {},
+			"created": 1554938226790,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_634ec90de6c247f1b64c1498fc672d5d",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_981990837e914e838c73bb0320990cc2",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1554938226790,
+			"method": "GET",
+			"modified": 1554939086456,
+			"name": "get proposals",
+			"parameters": [],
+			"parentId": "fld_aac8245e297c40588e99513f792885b4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost/rdcasting/public/TalentsProposals",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d3000b50a0da4807830b9d09eb8d645b",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"proposal_id\":4,\n\t\"status\":1\n}"
+			},
+			"created": 1555011321727,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4fc8480024d94f7e9670dc5d5e1a80c3",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_cb2a4314d1a74880a04dd123d67f99ae",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555011321727,
+			"method": "PUT",
+			"modified": 1555017845988,
+			"name": "TalentsProposalStatus",
+			"parameters": [],
+			"parentId": "fld_aac8245e297c40588e99513f792885b4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost/rdcasting/public/TalentsProposalStatus",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e725c47f27da45b49dd65ce6fe8c393c",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"status_accepted\": 1\n}"
+			},
+			"created": 1557023290841,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a0a0b4ec02f64b1488767c3a735331db",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_2c0e913e867b4512a128bbd78316d5ae",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557023290841,
+			"method": "PUT",
+			"modified": 1557117751270,
+			"name": "User Proposal Accepted",
+			"parameters": [],
+			"parentId": "fld_aac8245e297c40588e99513f792885b4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/user/proposal/accepted/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_acf336de5c3c40e19533b1842d92b2d5",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"estatus\":1\n}"
+			},
+			"created": 1557528180889,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_36a3a845205a42cdbaea1649d45b928b",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_d6441ce8d6124df88930b229c22ebe1f",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557528180890,
+			"method": "PUT",
+			"modified": 1557530944623,
+			"name": "proposal approvate",
+			"parameters": [],
+			"parentId": "fld_aac8245e297c40588e99513f792885b4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/talent/proposal/approvate/9",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b01c2194e806406e8a3f8508b3042bdf",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"estatus\":2,\n\t\"renegotiatedPrice\": 20000.00\n}"
+			},
+			"created": 1557529574082,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_93a38c5682ea4624ad88279089b3e9b0",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_97345bad0ddd4193bc8c48888f972403",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557529574082,
+			"method": "PUT",
+			"modified": 1557530778084,
+			"name": "proposal renegotiate",
+			"parameters": [],
+			"parentId": "fld_aac8245e297c40588e99513f792885b4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/talent/proposal/renegotiate/9",
+			"_type": "request"
+		},
+		{
+			"_id": "req_de4ea66cb33b48d2aac7422cebca9c4c",
+			"authentication": {},
+			"body": {},
+			"created": 1557530217705,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_94447472445541ed943c4b56c6ace925",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_83c64c1ef4324f189e56d93ff45823e7",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557530217705,
+			"method": "DELETE",
+			"modified": 1557530687631,
+			"name": "proposal delete",
+			"parameters": [],
+			"parentId": "fld_aac8245e297c40588e99513f792885b4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/talent/proposal/declinate/id/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2449cae2f43547f39ac6ffe7a43354fa",
+			"authentication": {},
+			"body": {},
+			"created": 1557533732410,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7d5c9ea1fe434f92a2f78e63eb698ea1",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_2ede46a2896f45a1aaa7c5cdf99b4a75",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557533732410,
+			"method": "GET",
+			"modified": 1557533789963,
+			"name": "proposals",
+			"parameters": [],
+			"parentId": "fld_aac8245e297c40588e99513f792885b4",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/proposals/talent",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bc26f765e36d44c988a3b17fab073cfd",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"preferred_role\":1\n}"
+			},
+			"created": 1554928352641,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_28eb1e3f40294015b1d9e63b0365337e",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_84569f4701c04dcb913f1d6ee2a0d7cc",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1554931198780.5,
+			"method": "POST",
+			"modified": 1554934338595,
+			"name": "add Role",
+			"parameters": [],
+			"parentId": "fld_d4e44e987118479e8fcaea43f3951ec9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost/rdcasting/public/preferredRole",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bba42a562e6146ad9ccda9081854c2c3",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"preferred_production\": 2\n}"
+			},
+			"created": 1554934156966,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a7b27e1203a549f2a51ede7da15ba23a",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_2a3c90ab703f4938a8e81441327125ee",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1554934156966,
+			"method": "POST",
+			"modified": 1554934373269,
+			"name": "add Production",
+			"parameters": [],
+			"parentId": "fld_d4e44e987118479e8fcaea43f3951ec9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost/rdcasting/public/preferredProduction",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_8a79e4ac74594fe89a1f7ffad79082b7",
+			"created": 1555628101528,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555628101528,
+			"modified": 1555628101528,
+			"name": "recover",
+			"parentId": "fld_7f7b90588ba14b83b8bf388ed4bbddba",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_ac239d66afd341eb8a1d8fcabbbaf2e1",
+			"created": 1555628245150,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1555628245150,
+			"modified": 1555628245150,
+			"name": "register",
+			"parentId": "fld_7f7b90588ba14b83b8bf388ed4bbddba",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_e7e0c025cac74d8f8989c595ba393bed",
+			"authentication": {},
+			"body": {},
+			"created": 1557261259423,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_6bc959fc3e5b4ed8840d941a013d6bca",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_740d46b7b52a4b33ac22cc98844d28ed",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557261259423,
+			"method": "GET",
+			"modified": 1557261737994,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_2592adda010d40d99513ec72b7996470",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/unlocked/gallery/2684",
+			"_type": "request"
+		},
+		{
+			"_id": "req_82e46323165e4452b5c44b1bedffe2a8",
+			"authentication": {},
+			"body": {},
+			"created": 1557261852173,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7a337dd024dd41d78b27d6c65cf0ef74",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_5492de982b1a4681bf29907e736773d4",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557261852174,
+			"method": "GET",
+			"modified": 1557262296907,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_125b1b96bdce4d78b6ee687291451edf",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/unlocked/myMoment/2684",
+			"_type": "request"
+		},
+		{
+			"_id": "req_15d70f0611e9453ca5254084c02f6e65",
+			"authentication": {},
+			"body": {},
+			"created": 1557263445929,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e8c53148704845cba0381851b2136034",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_e7b65731463c4fdaa2ae342a4a825f9c",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557263445929,
+			"method": "GET",
+			"modified": 1557263761514,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_29b5f971a6924028a3a3b87e2a1a25c1",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/unlocked/users/videos/byOwner/2684",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f86d8ab7b9314a57a476162cd0e7eb59",
+			"authentication": {},
+			"body": {},
+			"created": 1557283072561,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bdfbb3fd7bc14168b90034998d11f3d6",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_24f92a6459a14762915324134e2cb498",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557283072561,
+			"method": "GET",
+			"modified": 1557283105544,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_a2daf487910641718d5c3f427322f7d0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/unlocked/getUserSession/2684",
+			"_type": "request"
+		},
+		{
+			"_id": "req_8ad0757d605c40b882145cc405796edd",
+			"authentication": {},
+			"body": {},
+			"created": 1557261024059,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a31d705dc5d84d6f8feec1caa0793fb5",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_e85d5815a2de4f95a9dfa481fde77eeb",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557261024059,
+			"method": "GET",
+			"modified": 1557261088726,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_8463c3077492496686db59dfcdb0899f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/unlocked/curriculum/2684",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7a3e786530cc4b48aef7f828286ac726",
+			"authentication": {},
+			"body": {},
+			"created": 1557263228331,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_354478914b9840fb8bd4f4448b66e8ce",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_c4a09eca11c84d5ab3091b025a1ce73e",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557263228331,
+			"method": "GET",
+			"modified": 1557278364249,
+			"name": "get",
+			"parameters": [],
+			"parentId": "fld_73dba8dd2e1747749b6ba5d449520540",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/unlocked/user/answer/2218",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a82fdc83fae044d09dbc7b4be50b69d4",
+			"authentication": {},
+			"body": {},
+			"created": 1557345970657,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b471c44e53a048ca91ebc1978399c817",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_cacf906d49724fc594a0143fe74832ae",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557345970657,
+			"method": "GET",
+			"modified": 1557346051576,
+			"name": "get by Id",
+			"parameters": [],
+			"parentId": "fld_caf0b488a1794c219350259187955794",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/unlocked/userFeatures/2684",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4899b911a1544b7082b37941fa9de8ec",
+			"authentication": {},
+			"body": {},
+			"created": 1557346470115,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_aafc9279b27f477e9ad2a05f967f1df7",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_ad4bafebac7b48caaf62a70c4177c658",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557346470115,
+			"method": "GET",
+			"modified": 1557346670593,
+			"name": "get skill by Id",
+			"parameters": [],
+			"parentId": "fld_caf0b488a1794c219350259187955794",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/unlocked/userFeatures/skills/2684",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bbe611c376d341159c88ba0ba903476c",
+			"authentication": {},
+			"body": {},
+			"created": 1557347705128,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e6929a3643f848c2b7e9b99ac98a3e9a",
+					"name": "Authorization",
+					"value": "ymnGaw8hSX7T16JojOhcC93SiDpiiVAQj7knLqHY5HW1tzY9IAbnqWuarazy"
+				},
+				{
+					"id": "pair_83615c51c9914ae6b918a00ba76025c8",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1557347705128,
+			"method": "GET",
+			"modified": 1557353285814,
+			"name": "get phisical by Id",
+			"parameters": [],
+			"parentId": "fld_caf0b488a1794c219350259187955794",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost/rdcasting/public/unlocked/userFeatures/physical/2684",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bd40d67e77804702af265b5aa853b0af",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\":\"barinas.code@gmail.com\"\n}"
+			},
+			"created": 1555628175085,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_af010118de054ce08fc310104444ec3b",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555628175085,
+			"method": "POST",
+			"modified": 1555628226818,
+			"name": "recover",
+			"parameters": [],
+			"parentId": "fld_8a79e4ac74594fe89a1f7ffad79082b7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/auth/recover",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4b91a946d3e74167845bff49e7149746",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1555628255703,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_3487e920422048d7a44f602d128c8888",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1555628255703,
+			"method": "GET",
+			"modified": 1555628535309,
+			"name": "activate account",
+			"parameters": [],
+			"parentId": "fld_ac239d66afd341eb8a1d8fcabbbaf2e1",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8888/auth/register/activate/2684/3Uk69TvNt6aL2uok6Zabi4foHDWF9PIcz50AzNkQGfgOsRFpssjfcFk3nims",
+			"_type": "request"
+		},
+		{
+			"_id": "req_18e31c20d02a419382b9db8dca40fdff",
+			"authentication": {},
+			"body": {},
+			"created": 1556670279178,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_6599db3c7f524ea9b237960fb5aea782",
+					"name": "",
+					"value": ""
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1556670279178,
+			"method": "POST",
+			"modified": 1556670300831,
+			"name": "register talent",
+			"parameters": [],
+			"parentId": "fld_ac239d66afd341eb8a1d8fcabbbaf2e1",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "",
+			"_type": "request"
+		}
+	]
+}

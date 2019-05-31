@@ -1,0 +1,18 @@
+desabilitar al usuario de *company_users* en el campo *enable_user* pero solo lo puede desabilitar el administrador de la compañia que es *user_type=1* y lo mismo para habilitarlo.
+
+Ok => recuperar la lista de usuarios de esa compañia que estan trabajando y su rol *user_type*
+user_id
+user_type
+name
+
+Ok => tambien recuperar la lista de usuarios de todas las compañias
+user_id
+name
+
+oK => agregar usuario a la compañia pero no repetir el mismo rol *user_type*
+if(user_type != $data['user_type']) 
+
+
+
+
+
