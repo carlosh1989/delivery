@@ -23,12 +23,30 @@ use Illuminate\Support\Facades\Hash;
 
 class CompanyUsersController extends Controller
 {
+    public function companies(Request $request)
+    {
+      $data_session = AccessController::Verify($request);
+
+      $role = $data_session['userType'];
+
+      if($role == 1)
+      {
+        $companies = CompanyProfile::paginate(10);
+        return $companies;
+      }
+      else
+      {
+        return response()->json(['error'=>'Unauthorized'] , 401 , []);
+      }
+    }
+
     public function companies_list(Request $request)
     {
-        AccessController::Verify($request);
+        $data_session = AccessController::Verify($request);
 
         $data = $request->json()->all();
 
+        /*
         $companies = CompanyUsers::where('user_id', $data['user_id'])
         ->where('enable_user',1)
         ->get();
@@ -44,6 +62,49 @@ class CompanyUsersController extends Controller
         		'company_name' => $company->company_profile->company_name,
         	);
         }
+
+        */
+
+      
+
+    $companies = CompanyUsers::
+    select('company_users.company_profile_id','company_profile.id','company_profile.company_name','user_id')
+    ->where('enable_user',1)
+    ->where('user_id', $data_session['id'])
+    ->join('company_profile','company_profile.id','=','company_users.company_profile_id')
+    ->groupBy('company_profile.id')
+    ->get();
+
+
+     //$companies = CompanyProfile::all(['id','company_name']);
+        $companies_data = array();
+        
+        foreach ($companies as $key => $company) 
+        {
+          $type_employee = CompanyUsers::
+          select('company_users.company_profile_id','user_id','user_type')
+          ->where('enable_user',1)
+          ->where('user_id', $data_session['id'])
+          ->where('company_profile_id',$company->company_profile_id)
+          ->where('user_id',$company->user_id)
+          ->get()->toArray();
+
+          //print_r($type_employee);
+          $roles = [];
+
+          foreach ($type_employee as $key => $type) 
+          {   
+              
+              $roles[] = $type['user_type'];
+          }
+
+
+          $companies_data[] = $company;
+          $company['roles'] = $roles;
+
+        }
+
+
 
         return response()->json($companies_data, 200);
     }

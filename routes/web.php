@@ -24,6 +24,7 @@ $router->post('auth/user/image', ['uses' => 'AuthController@image']);
 $router->post('users/companies', ['uses' => 'CompanyUsersController@companies_list']);
 $router->get('users/company/{id}', ['uses' => 'CompanyUsersController@usersAllcompany']);
 $router->get('users/companies', ['uses' => 'CompanyUsersController@usersAllcompanies']);
+$router->get('companies', ['uses' => 'CompanyUsersController@companies']);
 
 //user company
 $router->post('company/user', ['uses' => 'CompanyUsersController@addEmployee']);
