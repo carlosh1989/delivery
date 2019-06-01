@@ -160,4 +160,45 @@ class CompanyUsersController extends Controller
 
        	return response()->json(['status' => 'status employee changed!','employee'=>$employee, 201]);
     }
+
+    public function employeesCount(Request $request,$id)
+    {
+        $company = CompanyUsers::where('company_profile_id',$id)->first();
+
+        if(!$company)
+        {
+          return response()->json(['status'=>'Not found company users!']);
+        }
+
+        $employees = CompanyUsers::where('company_profile_id',$id)->where('enable_user',1)
+        ->groupBy('user_id')
+        ->groupBy('company_profile_id')
+        ->get();
+
+        return $employees->count();
+    }
+
+    public function companyEmployeeRoles(Request $request, $id)
+    {
+      $data_session = AccessController::Verify($request);
+      
+      $employee_roles = CompanyUsers::where('user_id', $data_session->id)
+      ->where('company_profile_id',$id)
+      ->where('enable_user',1)
+      ->first();
+
+      if($employee_roles)
+      {
+        $employee_roles = CompanyUsers::where('user_id', $data_session->id)
+        ->where('company_profile_id',$id)
+        ->where('enable_user',1)
+        ->get(['user_type']);
+
+        return $employee_roles;
+      }
+      else
+      {
+        return response()->json(['status'=>'Employee not found!'], 400);
+      }
+    }
 }

@@ -24,8 +24,18 @@ use Kreait\Firebase\ServiceAccount;
 
 class FileController extends Controller
 {
+    public static function upload($file)
+    {
+        $path = 'uploads/files';
+        $newName = bin2hex(openssl_random_pseudo_bytes(16)).'.'.$file->getClientOriginalExtension();
+            
+        // Guardar las fotos en la carpeta
+        $file->move($path,$newName);
 
-    public function upload(Request $request)
+        return $path.'/'.$newName;
+    }
+
+    public function upload3(Request $request)
     {
         $serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/../../../../systemdream2014-firebase-adminsdk-s609e-67ff32a0fe.json');
         $firebase = (new Factory)->withServiceAccount($serviceAccount)->create();

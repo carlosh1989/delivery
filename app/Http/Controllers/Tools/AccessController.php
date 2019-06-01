@@ -42,13 +42,16 @@ class AccessController extends Controller
         $uid = $verifiedIdToken->getClaim('sub');
         $user = $firebase->getAuth()->getUser($uid);
 
-        return $user;
-
         $user_exists = User::where('email', $user->email)->first();
 
         if(!$user_exists)
         {
             return response()->json(['status'=>'Unauthorized!'],401);
+        }
+        else
+        {
+            $data_session = $user_exists;
+            return $data_session;
         }
     }
 }

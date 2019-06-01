@@ -29,8 +29,18 @@ $router->get('users/companies', ['uses' => 'CompanyUsersController@usersAllcompa
 $router->post('company/user', ['uses' => 'CompanyUsersController@addEmployee']);
 $router->post('company/user/allowedAccess', ['uses' => 'CompanyUsersController@allowedAccess']);
 
+$router->get('company/employee/roles/{id}', ['uses' => 'CompanyUsersController@companyEmployeeRoles']);
+
+
+
+//user company dashboard admin
+$router->get('company/employees/count/{id}', ['uses' => 'CompanyUsersController@employeesCount']);
+
 //products
 $router->post('product/create', ['uses' => 'ProductController@create']);
+$router->post('product/create2', ['uses' => 'ProductController@create2']);
+$router->get('products/company/{id}', ['uses' => 'ProductController@productsCompany']);
+
 
 //cloudinary
 $router->post('image/upload',['uses'=> 'ImageController@upload']);
