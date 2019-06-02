@@ -21,6 +21,7 @@ $router->get('auth/user/image', ['uses' => 'AuthController@image']);
 $router->post('auth/user/image', ['uses' => 'AuthController@image']);
 
 //companies
+$router->post('company/create', ['uses' => 'CompanyProfileController@create']);
 $router->post('users/companies', ['uses' => 'CompanyUsersController@companies_list']);
 $router->get('users/company/{id}', ['uses' => 'CompanyUsersController@usersAllcompany']);
 $router->get('users/companies', ['uses' => 'CompanyUsersController@usersAllcompanies']);
@@ -41,7 +42,7 @@ $router->get('company/employees/count/{id}', ['uses' => 'CompanyUsersController@
 $router->post('product/create', ['uses' => 'ProductController@create']);
 $router->post('product/create2', ['uses' => 'ProductController@create2']);
 $router->get('products/company/{id}', ['uses' => 'ProductController@productsCompany']);
-
+$router->get('products/company/admin/{id}', ['uses' => 'ProductController@productsCompanyAdmin']);
 
 //cloudinary
 $router->post('image/upload',['uses'=> 'ImageController@upload']);

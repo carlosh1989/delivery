@@ -21,7 +21,7 @@ class CompanyProfile extends Model implements AuthenticatableContract, Authoriza
         public $timestamps = false;
 
        protected $fillable = [
-        'logo','cover_page','path','company_name','latitude','longitude','address','enable_update' 
+        'logo','cover_page','path','company_name','latitude','longitude','address','enable_update','company_email','user_email','primary_phone','secondary_phone' 
     ];
 
 

@@ -21,8 +21,76 @@ use Illuminate\Support\Facades\Hash;
 // use \Swift_SmtpTransport;
 // use \Swift_Message;
 
-class CompanyUsersController extends Controller
+class CompanyProfileController extends Controller
 {
+    public function create(Request $request)
+    {
+      //AccessController::Verify($request);
+
+      $company = CompanyProfile::create([
+        'address' => $request->input('address'),
+        'company_email' => $request->input('company_email'),
+        'company_name' => $request->input('company_name'),
+        'user_email' => $request->input('user_email'),
+        'latitude' => $request->input('latitude'),
+        'longitude' => $request->input('longitude'),
+        'primary_phone' => $request->input('primary_phone'),
+        'secondary_phone' => $request->input('secondary_phone')
+      ]);
+
+      if($request->file('logo'))
+      {
+        $logo = ImageController::upload($request->file('logo'));
+        $company->logo = $logo;
+        $company->save();
+
+      }
+
+      if($request->file('cover_page'))
+      {
+        $cover_page = ImageController::upload($request->file('cover_page'));
+        $company->cover_page = $cover_page;
+        $company->save();
+      }
+
+      $user_exists = User::where('email',$request->input('user_email'))->first();
+
+      if($user_exists)
+      {
+        CompanyUsers::create([
+          'user_id' => $user_exists->id,
+          'company_profile_id' => $company->id,
+          'user_type' => 1,
+          'enable_user' => 1
+        ]);
+      }
+      else
+      {
+        $user = User::create([
+            'name'      => '',
+            'lastName'      => '',
+            'email'     => $request->input('user_email'),
+            'password'  => Hash::make('123456'),
+            'api_token' => str_random(60),
+            'email_token' => str_random(60),
+            'securityQuestion' => '',
+            'securityAnswer' => '',
+            'birthDate' => '',
+            'userType' => 2,
+            'verified' => 0,
+        ]);
+
+        CompanyUsers::create([
+          'user_id' => $user->id,
+          'company_profile_id' => $company->id,
+          'user_type' => 1,
+          'enable_user' => 1
+        ]);
+      }
+
+      return response()->json(['status'=>'successfully registered company','company'=>$company] ,201);
+    }
+
     public function companies(Request $request)
     {
       $data_session = AccessController::Verify($request);

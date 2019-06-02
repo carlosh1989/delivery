@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 /* Models */
+use App\CompanyProfile;
 use App\Http\Controllers\FileController;
 use App\Products;
 use App\ProductsGallery;
@@ -60,9 +61,30 @@ class ProductController extends Controller
     {
  	  $Products = Products::select('id','product_name','price','enable','tax')
  	  ->where('company_profile_id',$id)
+ 	  ->where('enable',1)
  	  ->with('products_gallery:id,products_id,image')
  	  ->get();
 
       return $Products;
+    }
+
+    public function productsCompanyAdmin(Request $request, $id)
+    {
+      	$data_session = AccessController::Verify($request);
+
+    	$company = CompanyProfile::where('user_email',$data_session['email'])->
+    	where('id',$id)->first();
+
+    	if(!$company)
+    	{
+           	return response()->json(['status'=>'Not found'] , 404 , []);
+    	}
+
+		$Products = Products::select('id','product_name','price','enable','tax')
+		->where('company_profile_id',$id)
+		->with('products_gallery:id,products_id,image')
+		->get();
+
+		return $Products;
     }
 }
